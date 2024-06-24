@@ -20,10 +20,22 @@ ul {
 }
 
 ul li {
-    margin-right: 25px;
+    margin-right: 12px;
     display: inline;
 }
 
 ul li a {
     color: #4DCDB7;
+}
+
+.title {
+    height: 150px;
+    background-image: url("/Users/hamid/Documents/BootCamp/Chalenges/Portfolio/assets/images/barn.jpg");
+    position: relative;
+}
+
+.title>h2 {
+    position: absolute;
+    right: 50px;
+    bottom: 0px;
 }
