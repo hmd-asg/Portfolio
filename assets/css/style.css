@@ -1,0 +1,29 @@
+* {
+    font-family: math;
+}
+
+nav {
+    background-color: #575050;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    background-color: #4DCDB7;
+    padding: 10px 10px 10px 40px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 25px;
+    display: inline;
+}
+
+ul li a {
+    color: #4DCDB7;
+}
