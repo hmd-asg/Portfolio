@@ -2,6 +2,10 @@
     font-family: math;
 }
 
+body {
+    margin: 0;
+}
+
 nav {
     background-color: #575050;
     display: flex;
@@ -30,7 +34,7 @@ ul li a {
 
 .title {
     height: 150px;
-    background-image: url("/Users/hamid/Documents/BootCamp/Chalenges/Portfolio/assets/images/barn.jpg");
+    background-image: url("../images/barn.jpg");
     position: relative;
 }
 
@@ -38,4 +42,98 @@ ul li a {
     position: absolute;
     right: 50px;
     bottom: 0px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container>h1 {
+    border-right: solid 2px;
+    flex: 1;
+    text-align: right;
+    padding-right: 20px;
+}
+
+
+article {
+    max-width: 800px;
+    flex: 3;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+article>div {
+    border: #4DCDB7 solid 2px;
+    height: 165px;
+    margin: 1px;
+    position: relative;
+}
+
+.project {
+    position: absolute;
+    left: 0%;
+    bottom: 10px;
+    background-color: #4DCDB7;
+    width: fit-content;
+}
+
+.project>p {
+    font-size: small;
+}
+
+.box-one {
+    background-image: url('../images/computer4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 2 0 99%;
+}
+
+.box-two,
+.box-three,
+.box-four,
+.box-five {
+    flex: 1 0 49%;
+}
+
+div>a {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+.box-two {
+    background-image: url('../images/computer2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-three {
+    background-image: url('../images/computer3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-four {
+    background-image: url('../images/computer4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-five {
+    background-image: url('../images/computer5.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
